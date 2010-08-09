@@ -66,7 +66,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<contest>, [">= 0"])
       s.add_development_dependency(%q<timecop>, [">= 0.3.5"])
       s.add_development_dependency(%q<sinatra>, [">= 0.9"])
-      s.add_runtime_dependency(%q<rest-client>, ["~> 1.4.0"])
+      s.add_runtime_dependency(%q<rest-client>, [">= 1.4.0"])
       s.add_runtime_dependency(%q<yajl-ruby>, ["~> 0.6"])
       s.add_runtime_dependency(%q<term-ansicolor>, ["~> 1.0"])
       s.add_runtime_dependency(%q<launchy>, [">= 0.3.2"])
